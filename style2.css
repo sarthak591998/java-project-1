@@ -1,0 +1,87 @@
+body{
+    background: -webkit-linear-gradient(cyan, #345fec);
+    background: -o-linear-gradient(cyan, #345fec); 
+    background: -moz-linear-gradient(cyan, #345fec);
+    background: linear-gradient(cyan, #345fec);
+}
+.bodyright{
+    width: 50%;   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+.bodyright p{
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    font-weight: 200;
+ 
+}
+.reg{
+    font-size: 25px;
+    font-weight: normal;
+}
+.registration{
+    font-size: 22px;
+    font-weight: 100;
+}
+.registration p{
+    font-size: 15px;
+    width: 380px;
+}
+.radius1{
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 0px;
+    width: 225px;
+}
+.need{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.need:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+.radius{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+    height: 35px;
+    width: 450px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 0px;
+}
+.title { 
+    font-family: 'Helvetica Neue'; 
+    color:white;
+    background-color: darkgreen; 
+    font-weight:normal; 
+    text-align:center; 
+    font-size:27px;
+    width: auto;
+    line-height: 30px;
+    border-radius: 5px; 
+}
